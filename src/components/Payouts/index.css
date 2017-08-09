@@ -1,0 +1,29 @@
+.payouts {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.second {
+  /*border: 1px solid black;*/
+  margin-top: 30px;
+}
+
+.first {
+  /*border: 1px solid black;*/
+}
+
+.third {
+  /*border: 1px solid black;*/
+  margin-top: 60px;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .second {
+    margin-top: 0px;
+  }
+
+  .third {
+    margin-top: 0px;
+  }
+}
