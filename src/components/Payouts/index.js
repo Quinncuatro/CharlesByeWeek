@@ -16,7 +16,7 @@ class Payouts extends Component {
               <FaTrophy size={150} color="#E6E8FA" />
               <h1>2nd Place</h1>
               <h3>
-                ${0.3125 * totalPot}
+                ${(0.3125 * totalPot).toFixed(2)}
               </h3>
             </div>
 
@@ -24,7 +24,7 @@ class Payouts extends Component {
               <FaTrophy size={150} color="#CFB53B" />
               <h1>1st Place</h1>
               <h3>
-                ${0.625 * totalPot}
+                ${(0.625 * totalPot).toFixed(2)}
               </h3>
             </div>
 
@@ -32,7 +32,7 @@ class Payouts extends Component {
               <FaTrophy size={150} color="#8C7853" />
               <h1>3rd Place</h1>
               <h3>
-                ${0.0615 * totalPot}
+                ${(0.0625 * totalPot).toFixed(2)}
               </h3>
             </div>
           </div>

@@ -6,7 +6,7 @@ const Infractions = () => {
     <div className="row infractions">
       <div className="col-sm-10 col-sm-offset-1">
         <div className="table-responsive">
-          <table className="table table-hover">
+          <table className="table table-bordered table-hover">
             <tbody>
               <tr>
                 <td>Casey Spurr</td>
@@ -52,7 +52,7 @@ const Infractions = () => {
               </tr>
               <tr>
                 <td>Nicholas Costanzo</td>
-                <td>0 Free Pass</td>
+                <td>1 Free Pass</td>
                 <td>0 Infractions</td>
                 <td>0 Days Since Last Infraction</td>
               </tr>
@@ -64,7 +64,7 @@ const Infractions = () => {
               </tr>
               <tr>
                 <td>...</td>
-                <td>0 Free Pass</td>
+                <td>1 Free Pass</td>
                 <td>0 Infractions</td>
                 <td>0 Days Since Last Infraction</td>
               </tr>
